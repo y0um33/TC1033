@@ -11,4 +11,5 @@ El codigo consiste en tres objetos:
 - Frutas
 - Vegetales
 - Juegos
+  
 Cada objeto tiene su propio valor y variable. Dependiendo del objeto el staff va poder corregir sus cantidades
