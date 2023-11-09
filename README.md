@@ -12,4 +12,5 @@ El codigo consiste en tres objetos:
 - Vegetales
 - Juegos
   
-Cada objeto tiene su propio valor y variable. Dependiendo del objeto el staff va poder corregir sus cantidades
+Cada objeto tiene su propio valor y variable. Dependiendo del objeto el staff va poder corregir sus cantidades. Utilizando getters (.get) se imprime los datos y con setter (.set) guarda
+los datos y datos modificados.
