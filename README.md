@@ -6,7 +6,7 @@
 # Contexto
 Los consumidores de un super mercado quieren saber donde está disponible los productos que ellos quieren, checar la disponibilidad. Este proyecto consiste en: desplegar una pregunta para identificar si el usuario es un staff o consumidor. Despues, dependiendo del tipo de usuario, el consumidor va a tener una pantalla sólo con las cantidades de los productos. El staff va a poder ver las cantidades y fechas del último modificación. También va a poder modificar los datos. 
 
-#Funcionalidad
+# Funcionalidad
 El codigo consiste en tres objetos:
 - Frutas
 - Vegetales
