@@ -9,7 +9,9 @@ int main(){
     int opcion;
     int answer_1;
 
-    cout << "Buenas, Eres cliente o staff? Si eres cliente escriba 1. Si eres staff escriba 2." << endl; //identificar el usuario
+    cout << "Bienvenidos a nuestro supermercado" << endl;
+    cout << "Eres cliente o staff?" << endl;
+    cout << "Si eres cliente escriba 1. \nSi eres staff escriba 2." << endl; //identificar el usuario
     cin >> answer_1;
 
     if (answer_1 == 1){ //utilizar objeto fruta,vegetal,juego
@@ -23,39 +25,39 @@ int main(){
         
         cout << "-----Frutas----- " << endl;
 
-        fruta fruta_1(24, "Noviembre", 2023, 8);
+        fruta fruta_1(24);
         cout << "Manzana: " << fruta_1.get_cantidad() << endl;
-        fruta fruta_2(36, "Noviembre", 2023, 8);
+        fruta fruta_2(36);
         cout << "Platano: " << fruta_2.get_cantidad() << endl;
-        fruta fruta_3(11, "Noviembre", 2023, 8);
+        fruta fruta_3(11);
         cout << "Papaya: " << fruta_3.get_cantidad() << endl;
-        fruta fruta_4(5, "Noviembre", 2023, 8);
+        fruta fruta_4(5);
         cout << "Fresa: " << fruta_4.get_cantidad() << endl;
 
         cout << " " << endl;
 
         cout << "-----Vegetales-----" << endl;
 
-        vegetal veg_1(56, "Noviembre", 2023, 8);
+        vegetal veg_1(56);
         cout << "Pepino: " << veg_1.get_value() << endl;
-        vegetal veg_2(123, "Noviembre", 2023, 8);
+        vegetal veg_2(123);
         cout << "Jitomate: " << veg_2.get_value() << endl;
-        vegetal veg_3(448, "Noviembre", 2023, 8);
+        vegetal veg_3(448);
         cout << "Lechuga: " << veg_3.get_value() << endl;
-        vegetal veg_4(69, "Noviembre", 2023, 8);
+        vegetal veg_4(69);
         cout << "Chile: " << veg_4.get_value() << endl;
         
         cout << " " << endl;
 
         cout << "-----Juegos-----" << endl;
 
-        juego jue_1(5, "Noviembre", 2023, 8);
+        juego jue_1(5);
         cout << "Mario Kart: " << jue_1.get_quantity() << endl;
 
-        juego jue_2(1, "Noviembre", 2023, 8);
+        juego jue_2(1);
         cout << "Fortnite: " << jue_2.get_quantity() << endl;
 
-        juego jue_3(2, "Noviembre", 2023, 8);
+        juego jue_3(2);
         cout << "Kirby: " << jue_3.get_quantity() << endl;
     } 
 
@@ -76,97 +78,64 @@ int main(){
             cout << "-----Frutas----- " << endl;
             cout << " " << endl;
 
-            fruta fruta_1(24, "Noviembre", 2023, 8);
+            fruta fruta_1(24);
             cout << "Manzana: " << fruta_1.get_cantidad() << endl;
-            cout << "Fecha de modificacion: " << fruta_1.get_month ();
-            cout << " " << fruta_1.get_day ();
-            cout << " " << fruta_1.get_year () << endl;
 
             cout << " " << endl;
 
-            fruta fruta_2(36, "Noviembre", 2023, 8);
+            fruta fruta_2(36);
             cout << "Platano: " << fruta_2.get_cantidad() << endl;
-            cout << "Fecha de modificacion: " << fruta_2.get_month ();
-            cout << " " << fruta_2.get_day ();
-            cout << " " << fruta_2.get_year () << endl;
 
             cout << " " << endl;
 
-            fruta fruta_3(11, "Noviembre", 2023, 8);
+            fruta fruta_3(11);
             cout << "Papaya: " << fruta_3.get_cantidad() << endl;
-            cout << "Fecha de modificacion: " << fruta_3.get_month ();
-            cout << " " << fruta_3.get_day ();
-            cout << " " << fruta_3.get_year () << endl;
 
             cout << " " << endl;
 
-            fruta fruta_4(5, "Noviembre", 2023, 8);
+            fruta fruta_4(5);
             cout << "Fresa: " << fruta_4.get_cantidad() << endl;
-            cout << "Fecha de modificacion: " << fruta_4.get_month ();
-            cout << " " << fruta_4.get_day ();
-            cout << " " << fruta_4.get_year () << endl; //Despues de mostrar los datos, se va desplegar una pregunta para obtener el valor modificado
 
         } else if (opcion == 2){
 
             cout << "-----Vegetales-----" << endl;
             cout << " " << endl;
 
-            vegetal veg_1(56, "Noviembre", 2023, 8);
+            vegetal veg_1(56);
             cout << "Pepino: " << veg_1.get_value() << endl;
-            cout << "Fecha de modificacion: " << veg_1.get_mes ();
-            cout << " " << veg_1.get_di ();
-            cout << " " << veg_1.get_yar () << endl;
             
             cout << " " << endl;
 
-            vegetal veg_2(123, "Noviembre", 2023, 8);
+            vegetal veg_2(123);
             cout << "Jitomate: " << veg_2.get_value() << endl;
-            cout << "Fecha de modificacion: " << veg_2.get_mes ();
-            cout << " " << veg_2.get_di ();
-            cout << " " << veg_2.get_yar () << endl;
 
             cout << " " << endl;
 
-            vegetal veg_3(448, "Noviembre", 2023, 8);
+            vegetal veg_3(448);
             cout << "Lechuga: " << veg_3.get_value() << endl;
-            cout << "Fecha de modificacion: " << veg_3.get_mes ();
-            cout << " " << veg_3.get_di ();
-            cout << " " << veg_3.get_yar () << endl;
 
             cout << " " << endl;
 
-            vegetal veg_4(69, "Noviembre", 2023, 8);
-            cout << "Chile: " << veg_4.get_value() << endl;
-            cout << "Fecha de modificacion: " << veg_4.get_mes ();
-            cout << " " << veg_4.get_di ();
-            cout << " " << veg_4.get_yar () << endl;} //Despues de mostrar los datos, se va desplegar una pregunta para obtener el valor modificado
-            
-        else if (opcion == 3){
+            vegetal veg_4(69);
+            cout << "Chile: " << veg_4.get_value() << endl; //Despues de mostrar los datos, se va desplegar una pregunta para obtener el valor modificado
+        
+        } else if (opcion == 3){
 
             cout << "-----Juegos-----" << endl;
             cout << " " << endl;
 
-            juego jue_1(5, "Noviembre", 2023, 8);
+            juego jue_1(5);
             cout << "Mario Kart: " << jue_1.get_quantity() << endl;
-            cout << "Fecha de modificacion: " << jue_1.get_mon ();
-            cout << " " << jue_1.get_day ();
-            cout << " " << jue_1.get_yearth ();
 
             cout << " " << endl;
 
-            juego jue_2(1, "Noviembre", 2023, 8);
+            juego jue_2(1);
             cout << "Fortnite: " << jue_2.get_quantity() << endl;
-            cout << "Fecha de modificacion: " << jue_2.get_mon ();
-            cout << " " << jue_2.get_day ();
-            cout << " " << jue_2.get_yearth ();
 
             cout << " " << endl;
 
-            juego jue_3(2, "Noviembre", 2023, 8);
+            juego jue_3(2);
             cout << "Kirby: " << jue_3.get_quantity() << endl;
-            cout << "Fecha de modificacion: " << jue_3.get_mon ();
-            cout << " " << jue_3.get_day ();
-            cout << " " << jue_3.get_yearth ();
             
             cout << " " << endl; //Despues de mostrar los datos, se va desplegar una pregunta para obtener el valor modificado
             } 
