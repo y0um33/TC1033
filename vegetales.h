@@ -4,9 +4,6 @@ using namespace std;
 class vegetal{
 private:
     int value;
-    string mes;
-    int yar;
-    int di;
 
 public:
     vegetal(): value(0){};
