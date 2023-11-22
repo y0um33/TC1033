@@ -11,7 +11,6 @@ El codigo consiste en tres objetos:
 - Frutas
 - Vegetales
 - Producto
-- Staff
 - Main
   
 Cada objeto tiene su propio valor y variable. Dependiendo del objeto el staff va poder corregir sus cantidades. Utilizando getters (.get) se imprime los datos y con setter (.set) guarda
