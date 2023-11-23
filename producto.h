@@ -1,3 +1,6 @@
+#ifndef PRODUCTO_H
+#define PRODUCTO_H
+
 #include <string>
 using namespace std;
 
@@ -26,8 +29,10 @@ string producto::get_origen(){
 
 void producto::set_precio(float pre){
     precio = pre;
-};
+}
 
 void producto::set_origen(string ori){
     origen = ori;
 }
+
+#endif
