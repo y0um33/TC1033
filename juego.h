@@ -1,5 +1,5 @@
-#ifndef JUEGO.H
-#define JUEGO.H
+#ifndef JUEGO_H
+#define JUEGO_H
 
 #include <string>
 #include "producto.h"
