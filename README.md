@@ -20,3 +20,8 @@ Cada objeto tiene su propio valor y variable. Dependiendo del objeto el staff va
 
 # Consideraciones
 - El PIN para staff es: 8596
+
+# Correciones
+- Modifique la diagrama de UML agregación a composición
+- Agregar comentarios que explica la función de cada código
+  
