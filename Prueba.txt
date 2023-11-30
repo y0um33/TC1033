@@ -4,3 +4,114 @@ A01712059
 Casos de Prueba
 
 Prueba 1:
+
+//Si eres cliente
+Eres cliente o staff?
+Input:
+1
+Output:
+Bienvenido a nuestro super mercado
+Ahorita estamos disponibles los siguientes productos: 
+ 
+-----Frutas----- 
+Manzana: 24
+Precio: 23.99
+Origen: Mexico
+
+Platano: 36
+Precio: 12.56
+Origen: India
+
+Papaya: 11
+Precio: 35.5
+Origen: Hawaii
+
+Fresa: 5
+Precio: 50.45
+Origen: China
+
+-----Vegetales-----
+Pepino: 56
+Precio: 11.23
+Origen: Corea
+
+Jitomate: 123
+Precio: 5.69
+Origen: Estados Unidos
+
+Lechuga: 448
+Precio: 2.33
+Origen: California
+
+Chile: 69
+Precio: 7.89
+Origen: Mexico
+
+-----Juegos-----
+*AVISO IMPORTANTE*: Para comprar un juego necesitan que llamar al numero 442 123 456
+Mario
+Precio: 125.99
+Origen: Jap처n
+Descripcion: Las aventuras de dos fontaneros, Mario y Luigi, quienes deben rescatar a la Princesa Peach
+
+Fortnite
+Precio: 369.99
+Origen: Carolina Del Norte
+Descripcion: juego de tipo batalla real en el que compiten hasta cien jugadores en solitario, d첬os, tr챠os o escuadrones
+
+Rabidds
+Precio: 599.99
+Origen: Francia
+Descripcion: aventura con combates por turnos y grandes dosis de estrategia
+
+Quieres observar las ofertas que tenemos? y/n
+
+Input: //caso de prueba si quieres ver las ofertas
+y
+Output:
+Tenemos diferentes descuentos en cada periodo.
+Invierno:Tenemos un descuento de Navidad por 60%!!!
+Otono:Tenemos un descuento de Thanksgiving por 15%!!!
+Verano:Tenemos un descuento de regreso a la escuela por 50%!!!
+Primavera:Tenemos un descuento de Pascua por 20%!!!
+
+Input: //caso de prueba si no quieres ver las ofertas
+n
+Output:
+Gracias!!
+
+//PIN 8596
+//Si eres staff
+Input:
+1
+Output:
+-----Frutas-----
+
+Manzana: 24
+Platano: 36
+Papaya: 11
+Fresa: 5
+
+Input:
+2
+Output:
+-----Vegetales-----
+
+Pepino: 56
+
+Jitomate: 123
+
+Lechuga: 448
+
+Chile: 69
+
+Cual producto quieres modificar?
+Input:
+1
+Output:
+Cuanta cantidad se queda?:
+Input:
+56
+Output:
+El valor modificado de Pepino es: 56
+
