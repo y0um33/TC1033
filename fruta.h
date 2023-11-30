@@ -30,7 +30,7 @@ public:
     
 };
 
-int fruta::get_cantidad(){ //una solicitud de description que está private, acceder
+int fruta::get_cantidad(){ //una solicitud de fruta que está private, acceder
     return cantidad; //return cantidad
 }
 
