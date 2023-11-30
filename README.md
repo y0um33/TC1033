@@ -24,4 +24,15 @@ Cada objeto tiene su propio valor y variable. Dependiendo del objeto el staff va
 # Correciones
 - Modifique la diagrama de UML agregación a composición
 - Agregar comentarios que explica la función de cada código
+
+# Subcompetencias
+SICT0302A - Toma de decisiones
+- Diseñe correctamente clases sencillas y fueron completos
+- Una diagrama de clases adecuada utilizando concepto de composición.
+SICT0303A 
+- Uso de métodos y atributos de clase correctamente (constructores, getters, setters). Implementé correctamente la herecnia, composición, diagrama de clases.
+SICT0401A
+- Mi código sigue los estándares: estilo, sangrías, comentarios, nombres.
+SEG0702A
+- Guardé correctamente los avances y utilice Github correctamente para subir los archivos.
   
