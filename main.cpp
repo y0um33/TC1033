@@ -7,8 +7,9 @@ using namespace std;
 
 int main(){
 
-    int opcion;
-    int answer_1;
+    //objetos declarados en main.cpp
+    int opcion; 
+    int answer_1; 
     int pin;
     int cantidad;
 
@@ -16,13 +17,15 @@ int main(){
     int frutales;
     int quan;
 
+    string respuesta;
+
+    //guardando valores en setter de discount
     discount disc1("60%","Invierno");
     discount disc2("15%","Otono");
     discount disc3("50%","Verano");
     discount disc4("20%","Primavera"); 
 
-    string respuesta;
-
+    //valores de clases vegetal y fruta
     vegetal vegetal1;
     vegetal vegetal2;
     vegetal vegetal3;
@@ -37,7 +40,7 @@ int main(){
     cout << "Eres cliente o staff?" << endl;
     cout << "Si eres cliente escriba 1. \nSi eres staff escriba 2." << endl; //identificar el usuario
     
-    cin >> answer_1;
+    cin >> answer_1; //dependiendo de la respuesta se va ir a consumidor o staff
 
     if (answer_1 == 1){ //consumidor
 
@@ -48,8 +51,8 @@ int main(){
         
         cout << "-----Frutas----- " << endl;
 
-        fruta fruta_1(23.99, "Mexico", 24);
-        cout << "Manzana: " << fruta_1.get_cantidad() << endl;
+        fruta fruta_1(23.99, "Mexico", 24); //valores en setter de fruta
+        cout << "Manzana: " << fruta_1.get_cantidad() << endl; //regresar los valores guardadas en fruta
         cout << "Precio: " << fruta_1.get_precio() << endl;
         cout << "Origen: " << fruta_1.get_origen() << endl;
         cout << "" << endl;
@@ -72,8 +75,8 @@ int main(){
 
         cout << "-----Vegetales-----" << endl;
 
-        vegetal veg_1(11.23, "Corea", 56);
-        cout << "Pepino: " << veg_1.get_value() << endl;
+        vegetal veg_1(11.23, "Corea", 56); //valores en setter de vegetal
+        cout << "Pepino: " << veg_1.get_value() << endl; //regresar los valores guardadas en vegetal
         cout << "Precio: " << veg_1.get_precio() << endl;
         cout << "Origen: " << veg_1.get_origen() << endl;
         cout << "" << endl;
@@ -95,9 +98,9 @@ int main(){
         cout << "-----Juegos-----" << endl;
         cout << "*AVISO IMPORTANTE*: Para comprar un juego necesitan que llamar al numero 442 123 456" << endl;
         
-        game jue_1(125.99, "Japón", "Las aventuras de dos fontaneros, Mario y Luigi, quienes deben rescatar a la Princesa Peach");
+        game jue_1(125.99, "Japón", "Las aventuras de dos fontaneros, Mario y Luigi, quienes deben rescatar a la Princesa Peach"); //valores en setter de juego
         cout << "Mario" << endl;
-        cout << "Precio: " << jue_1.get_precio() << endl;
+        cout << "Precio: " << jue_1.get_precio() << endl; //regresar los valores guardadas en juego
         cout << "Origen: " << jue_1.get_origen() << endl;
         cout << "Descripcion: " << jue_1.get_description() << endl;
         cout << "" << endl;
@@ -119,7 +122,7 @@ int main(){
         cin >> respuesta;
         if (respuesta == "y"){
             cout << "Tenemos diferentes descuentos en cada periodo." << endl;
-            cout << disc1.get_Season().get_period() << ":Tenemos un descuento de Navidad por " << disc1.get_number() << "!!!" << endl;
+            cout << disc1.get_Season().get_period() << ":Tenemos un descuento de Navidad por " << disc1.get_number() << "!!!" << endl; //composición
             cout << disc2.get_Season().get_period() << ":Tenemos un descuento de Thanksgiving por " << disc2.get_number() << "!!!" << endl;
             cout << disc3.get_Season().get_period() << ":Tenemos un descuento de regreso a la escuela por " << disc3.get_number() << "!!!" << endl;
             cout << disc4.get_Season().get_period() << ":Tenemos un descuento de Pascua por " << disc4.get_number() << "!!!" << endl;
@@ -149,8 +152,8 @@ int main(){
                 cout << "-----Frutas----- " << endl;
                 cout << " " << endl;
 
-                fruta fruta_1(23.99, "Mexico", 24);
-                 cout << "Manzana: " << fruta_1.get_cantidad() << endl;
+                fruta fruta_1(23.99, "Mexico", 24); //constructor de fruta
+                 cout << "Manzana: " << fruta_1.get_cantidad() << endl; //getter de frutas
         
                 fruta fruta_2(12.56, "India", 36);
                 cout << "Platano: " << fruta_2.get_cantidad() << endl;
@@ -172,7 +175,7 @@ int main(){
                 if (frutales == 1){
                     cout << "Cuanta cantidad se queda?: " << endl;
                     cin >> quan;
-                    fruta1.set_cantidad(quan);
+                    fruta1.set_cantidad(quan); //se guarda el nuevo valor que ingreso el usuario
                     cout << "El valor modificado de Manzana es: "<< fruta1.get_cantidad() << endl;
                 }
                 else if(frutales == 2){
@@ -202,8 +205,8 @@ int main(){
                 cout << "-----Vegetales-----" << endl;
                 cout << " " << endl;
 
-                vegetal veg_1(11.23, "Corea", 56);
-                cout << "Pepino: " << veg_1.get_value() << endl;
+                vegetal veg_1(11.23, "Corea", 56); //constructor de vegetal
+                cout << "Pepino: " << veg_1.get_value() << endl; //getter de vegetal
                 cout << "" << endl;
                 vegetal veg_2(5.69, "Estados Unidos", 123);
                 cout << "Jitomate: " << veg_2.get_value() << endl;
@@ -224,8 +227,8 @@ int main(){
 
                 if (vegetales == 1){
                     cout << "Cuanta cantidad se queda?: " << endl;
-                    cin >> quan;
-                    vegetal1.set_value(quan);
+                    cin >> quan; //recibir el valor llamado quan
+                    vegetal1.set_value(quan); //guardar quan en el setter de vegetales
                     cout << "El valor modificado de Pepino es: "<< vegetal1.get_value() << endl;
                 }
                 else if(vegetales == 2){
