@@ -16,7 +16,15 @@ El codigo consiste en 7 objetos:
 - Descuento
 - Main
   
-Cada objeto tiene su propio valor y variable. Dependiendo del objeto el staff va poder corregir sus cantidades. Utilizando getters (.get) se imprime los datos y con setter (.set) guarda los datos y datos modificados. 
+Cada objeto tiene su propio valor y variable. Dependiendo del objeto el staff va poder corregir sus cantidades. Utilizando getters (.get) se imprime los datos y con setter (.set) guarda los datos y datos modificados.
+
+Consumidor puede:
+- Ver los precios, cantidad, orígen. (en caso de juego también podrá ver los descripciones.
+- Ver los descuentos disponibles
+
+Staff puede:
+- Ver los precios, cantidad, origen. (en caso de juego también podrá ver los descripciones)
+- Modificar las cantidades de los productos
 
 # Consideraciones
 - El PIN para staff es: 8596
