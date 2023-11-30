@@ -28,6 +28,8 @@ Staff puede:
 
 # Consideraciones
 - El PIN para staff es: 8596
+- El código está hecho con C++ estándar entonces se compila sin importar mac o window.
+- Para regresar al menu, o al inicio necesita que reiniciar el código
 
 # Correciones
 - Modifique la diagrama de UML agregación a composición
