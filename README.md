@@ -34,8 +34,9 @@ Staff puede:
 - Agregar comentarios que explica la función de cada código
 
 # Subcompetencias
-SICT0302A - Toma de decisiones
-- Diseñe correctamente clases sencillas y fueron completos
+| Subcompetencia | Explicación |
+| :---: | :---:|
+| SICT0302A | Diseñe correctamente clases sencillas y fueron completos |
 - Una diagrama de clases adecuada utilizando concepto de composición.
 SICT0303A 
 - Uso de métodos y atributos de clase correctamente (constructores, getters, setters). Implementé correctamente la herecnia, composición, diagrama de clases.
